@@ -1,0 +1,48 @@
+.Customer {
+    text-align: center;
+    background-color: #fafafa;
+    color: #000;
+  }
+  
+  .Customer-header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Customer-header h1 {
+    margin: 0;
+  }
+  
+  .Customer-header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Customer-header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .Customer-header nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

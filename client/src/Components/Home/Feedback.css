@@ -1,0 +1,49 @@
+/* src/components/Feedback/Feedback.css */
+.feedback-container {
+    text-align: center;
+    padding: 50px 20px;
+    /* background-color: #fafafa; */
+  }
+  
+  .feedback-heading {
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .feedback-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    /* background: #FAFAFA; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .profile-img {
+    /* border-radius: 50%; */
+    width: 100px;
+    height: 100px;
+    transition: all 0.5s;
+    /* margin-bottom: 20px; */
+  }
+  .card:hover{
+    background-color:   #E0E0E0;
+  }
+  .card:hover .profile-img{
+    transform: scale(1.2);
+  }
+  
+  .card p {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+  }
+  
